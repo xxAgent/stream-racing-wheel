@@ -169,7 +169,7 @@ function RebindInputs(props) {
                 <button
                     className="resetButton"
                     onClick={() => {
-                        updateImage('imgWheel', "/stream-racing-wheel/g920/wheel.png");
+                        updateImage('imgWheel', "/stream-racing-wheel/tsxw/wheel.png");
                         updateImage('imgPedalBase', '/stream-racing-wheel/g920/pedals.png');
                         updateImage('imgGas', '/stream-racing-wheel/g920/gas.png');
                         updateImage('imgBrake', '/stream-racing-wheel/g920/brake.png');
