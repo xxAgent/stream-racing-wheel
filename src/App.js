@@ -68,7 +68,7 @@ loadSaved('btnWheel_LB', 4);
 loadSaved('btnWheel_RB', 5);
 
 
-loadSaved('imgWheel', "/stream-racing-wheel/g920/wheel.png");
+loadSaved('imgWheel', "/stream-racing-wheel/tsxw/wheel.png");
 
 loadSaved('imgWheel_DUp', "/stream-racing-wheel/g920/DUp.png");
 loadSaved('imgWheel_DDown', "/stream-racing-wheel/g920/DDown.png");
@@ -195,7 +195,7 @@ class App extends Component {
     return (
       <div style={{ width: '100%', height: '100%', position: 'absolute', top: '0px', left: '0px', paddingTop: '1rem', paddingLeft: '2rem' }}>
         <h1 style={{ color: 'white' }}>Stream Racing Wheel</h1>
-        <a style={{ color: 'white' }} href="https://github.com/joetex/stream-racing-wheel">View on GitHub</a>
+        <a style={{ color: 'white' }} href="https://github.com/xxagent/stream-racing-wheel">View on GitHub</a>
         <br />
         <br />
         <GamepadSelection onChange={(e) => { this.onChange(e) }} />
